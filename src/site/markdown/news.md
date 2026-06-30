@@ -20,6 +20,11 @@
 HttpComponents Project News
 ===========================
 
+###### 30 June 2026 - HttpComponents Client 5.6.2 GA released
+
+This maintenance release upgrades HttpCore to the latest stable version and restores
+lazy content decompression by the classic client transport.
+
 ###### 25 June 2026 - HttpComponents Core 5.5-beta2 released
 
 This BETA release corrects Java 8 binary problem introduced in the previous BETA
