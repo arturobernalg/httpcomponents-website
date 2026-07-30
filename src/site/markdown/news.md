@@ -20,6 +20,11 @@
 HttpComponents Project News
 ===========================
 
+###### 31 July 2026 - HttpComponents Client 5.6.3 GA released
+
+This maintenance release fixes a resource management defect in the content decompression 
+protocol handler of the classic transport.
+
 ###### 30 June 2026 - HttpComponents Client 5.6.2 GA released
 
 This maintenance release upgrades HttpCore to the latest stable version and restores
