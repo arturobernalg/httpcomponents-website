@@ -20,6 +20,11 @@
 HttpComponents Project News
 ===========================
 
+###### 10 Aug 2026 - HttpComponents Client 5.6.4 GA released
+
+This maintenance release fixes SSL parameter application in the async TLS upgrade
+strategy.
+
 ###### 31 July 2026 - HttpComponents Client 5.6.3 GA released
 
 This maintenance release fixes a resource management defect in the content decompression 
