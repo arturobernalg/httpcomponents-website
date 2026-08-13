@@ -20,6 +20,34 @@
 HttpComponents Project News
 ===========================
 
+###### 17 Aug 2026 - HttpComponents Client 5.7-alpha1 released
+
+This is the first ALPHA release in the 5.7 release series. It introduces several new
+modules with Server-Sent Events (SSE) client, WebSocket client and Jakarta REST client
+implementations that build upon the common foundation of the core and client modules.
+Please note the Jakarta REST client presently supports a sub-set of jakarta.ws.rs APIs
+only. This release series also introduces full support for QUERY method including QUERY
+response caching.
+
+Notable changes and features included in the 5.7 series:
+
+* Experimental. Server-Sent Events (SSE) client optimized to handle push event streams.
+
+* Experimental. WebSocket protocol support (client and server side).
+
+* Experimental. Optional execution queue that enforces a max limit on the number of
+  requests executed concurrently by the same async client instance.
+
+* Caffeine-based cache backend.
+
+* OFFLOCK pool concurrency policy for connection pools (classic and async).
+
+* TLS-Required mode support.
+
+* Jakarta REST client, supporting a sub-set of jakarta.ws.rs APIs.
+
+* QUERY method support / QUERY response caching support.
+
 ###### 10 Aug 2026 - HttpComponents Client 5.6.4 GA released
 
 This maintenance release fixes SSL parameter application in the async TLS upgrade
