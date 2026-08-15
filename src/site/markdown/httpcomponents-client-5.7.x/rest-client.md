@@ -39,15 +39,9 @@ registered through `jakarta.ws.rs.client.ClientBuilder` service discovery.
 Module and dependency
 ---------------------
 
-REST client support lives in a separate module:
-
-```xml
-<dependency>
-  <groupId>org.apache.httpcomponents.client5</groupId>
-  <artifactId>httpclient5-jakarta-rest-client</artifactId>
-  <version>${httpclient5.version}</version>
-</dependency>
-```
+REST client support lives in a separate module,
+`httpclient5-jakarta-rest-client`. For the current release coordinates, see the
+[download](download.html) page.
 
 It depends on the async client (`httpclient5`) and the Jackson integration
 (`httpcore5-jackson2`), and pulls in the Jakarta REST annotations.

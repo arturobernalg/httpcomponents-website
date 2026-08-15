@@ -38,15 +38,8 @@ enabled by default.
 Module and dependency
 ---------------------
 
-WebSocket support lives in a separate module:
-
-```xml
-<dependency>
-  <groupId>org.apache.httpcomponents.client5</groupId>
-  <artifactId>httpclient5-websocket</artifactId>
-  <version>${httpclient5.version}</version>
-</dependency>
-```
+WebSocket support lives in a separate module, `httpclient5-websocket`. For the
+current release coordinates, see the [download](download.html) page.
 
 It builds on the async I/O reactor and reuses the existing HTTP/1.1 and HTTP/2
 machinery and TLS strategies.

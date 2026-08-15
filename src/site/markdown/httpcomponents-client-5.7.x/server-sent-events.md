@@ -37,15 +37,8 @@ focuses on:
 Module and dependency
 ---------------------
 
-SSE support lives in a separate module:
-
-```xml
-<dependency>
-  <groupId>org.apache.httpcomponents.client5</groupId>
-  <artifactId>httpclient5-sse</artifactId>
-  <version>${httpclient5.version}</version>
-</dependency>
-```
+SSE support lives in a separate module, `httpclient5-sse`. For the current
+release coordinates, see the [download](download.html) page.
 
 This module depends on the async client (`httpclient5`) and reuses the existing
 I/O reactor, connection pooling and TLS strategies.
