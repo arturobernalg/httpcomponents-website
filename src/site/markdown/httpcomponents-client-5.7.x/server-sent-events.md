@@ -144,17 +144,17 @@ final EventSourceListener listener = new EventSourceListener() {
 };
 
 // 3) Backoff policy (e.g. bounded exponential with jitter)
- BackoffStrategy backoff = BackoffStrategies.exponentialJitter(...);
+final BackoffStrategy backoff = BackoffStrategies.exponentialJitter(...);
 
 // 4) Create an EventSource via SseExecutor (see actual factory signature in code)
- final SseExecutor sse = ...
- final EventSource source = sse.open(
-         URI.create("https://example.com/events"),
-         listener,
-         backoff);
+final SseExecutor sse = ...
+final EventSource source = sse.open(
+        URI.create("https://example.com/events"),
+        listener,
+        backoff);
 
 // 5) Start streaming
- source.start();
+source.start();
 ```
 
 > The exact factory methods and builder options for `SseExecutor` may evolve;
