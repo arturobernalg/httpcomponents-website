@@ -37,6 +37,7 @@ Documentation
 
 1. Guides
     * [SSE](server-sent-events.md) - Server side events
+    * [Jakarta REST client](rest-client.md) - Type-safe Jakarta REST client backed by HttpClient
 
 1. Javadocs
 
@@ -45,6 +46,7 @@ Documentation
     * [HttpClient Cache](./current/httpclient5-cache/apidocs/)
     * [HttpClient Observation](./current/httpclient5-observation/apidocs/)
     * [HttpClient SSE](./current/httpclient5-sse/apidocs/)
+    * [HttpClient Jakarta REST](./current/httpclient5-jakarta-rest-client/apidocs/)
 
 1. API compatibility reports
 
